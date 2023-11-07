@@ -1,0 +1,171 @@
+[
+    {
+      "title": "Чуйская область",
+      "city": "Ак-Тюз",
+      "address": "Где-то в Ак-Тюз",
+      "distance": 300,
+      "price": 750,
+      "maxGroupSize": 10,
+      "desc": "Живописное ущелье Ак-Тюз. 137 км от Бишкека, 2300 над уровнем моря. Уникальная достопримечательность долины Ак-Тюз – фонтан, бьющий на высоту 15 метров.",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img0.jpg",
+      "featured": true
+    },
+    {
+      "title": "Нарынская область",
+      "city": "Озеро Кел-Суу",
+      "address": "Где-то в Кел-Суу",
+      "distance": 400,
+      "price": 800,
+      "maxGroupSize": 8,
+      "desc": "Горное озеро на высоте 3500 метров на кыргызско-китайской границе",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img02.jpg",
+      "featured": true
+    },
+    {
+      "title": "Ошская область",
+      "city": "Гора Сулайман-Тоо",
+      "address": "Где-то в Сулайман-Тоо",
+      "distance": 100,
+      "price": 1100,
+      "maxGroupSize": 5,
+      "desc": "Восхождение на священную гору южной столицы, высотой 1100 м",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img09.jpg",
+      "featured": true
+    },
+    {
+      "title": "Таласская область",
+      "city": "Озеро Беш-Таш",
+      "address": "Где-то в Беш-Таш",
+      "distance": 300,
+      "price": 1750,
+      "maxGroupSize": 8,
+      "desc": "Озеро, расположенное в Беш-Ташской долине на высоте 2997 м",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img10.jpg",
+      "featured": true
+    },
+    {
+      "title": "Жалал-Абадская область",
+      "city": "Арсланбоб",
+      "address": "Где-то в Арсланбоб",
+      "distance": 500,
+      "price": 1250,
+      "maxGroupSize": 8,
+      "desc": "Это самый большой ореховый лес в мире и одно из самых удивительных мест Кыргызстана, распологающийся на высоте в 1700 метров",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img11.jpg",
+      "featured": true
+    },
+    {
+      "title": "Ысык-Кульская область",
+      "city": "Каньоны Кок-Мойнок",
+      "address": "Где-то в Кок-Мойнок",
+      "distance": 500,
+      "price": 1000,
+      "maxGroupSize": 8,
+      "desc": "Красочные каньоны по дороге на озеро Иссык-Куль в Боомском ущелье, примерно на 150 км.",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img03.jpg",
+      "featured": true
+    },
+    {
+      "title": "Баткенская область",
+      "city": "Гора Ай-Гуль Таш",
+      "address": "Где-то в Ай-Гуль Таш",
+      "distance": 800,
+      "price": 1800,
+      "maxGroupSize": 10,
+      "desc": "Гора, располагающаяся в 20 километрах к юго-востоку от города Баткен, знаменитая растущим только в этом месте цветком Айгуль, являющимся эндемиком",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img14.jpg",
+      "featured": false
+    },
+    {
+      "title": "Чуйская область 01",
+      "city": "Бурана",
+      "address": "Где-то в Буран",
+      "distance": 500,
+      "price": 500,
+      "maxGroupSize": 8,
+      "desc": "Минарет IX—XI веков государства Караханидов в 80 км от Бишкека.",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img04.jpg",
+      "featured": true
+    },
+    {
+      "title": "Жалал-Абадская область 01",
+      "city": "Ущелье Чычкан",
+      "address": "Где-то в Ущелье Чычкан",
+      "distance": 600,
+      "price": 950,
+      "maxGroupSize": 8,
+      "desc": "Озеро, расположенное в Беш-Ташской долине на высоте 2997 м",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img12.jpg",
+      "featured": true
+    },
+    {
+      "title": "Чуйская область 02",
+      "city": "Ысык-Ата",
+      "address": "Где-то в Ысык-Ата",
+      "distance": 500,
+      "price": 780,
+      "maxGroupSize": 8,
+      "desc": "Лечебный курорт с термальными источниками.",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img05.jpg",
+      "featured": true
+    },
+    {
+      "title": "Нарынская область 01",
+      "city": "Озеро Сон-Куль",
+      "address": "Где-то в Сон-Куль",
+      "distance": 500,
+      "price": 1300,
+      "maxGroupSize": 8,
+      "desc": "this is the description",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img07.jpg",
+      "featured": true
+    },
+    {
+      "title": "Чуйская область 03",
+      "city": "Ущелье Ала-Арча",
+      "address": "Где-то в Ущелье Ала-Арча",
+      "distance": 750,
+      "price": 99,
+      "maxGroupSize": 8,
+      "desc": "Национальный парк и ущелье Ала-Арча в 30 км от Бишкека",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img06.jpg",
+      "featured": true
+    },
+    {
+      "title": "Нарынская область 02",
+      "city": "Озеро Чатыр-Куль",
+      "address": "Где-то в Чатыр-Куль",
+      "distance": 1400,
+      "price": 950,
+      "maxGroupSize": 8,
+      "desc": "Бессточное озеро в Центральном Тянь-Шане, расположенное в котловине",
+      "reviews": [],
+  
+      "photo": "/tour-images/tour-img08.jpg",
+      "featured": true
+    }
+]
