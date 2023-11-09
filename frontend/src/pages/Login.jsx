@@ -15,7 +15,7 @@ const Login = () => {
   const [credentials, setCredetials] = useState({
     email: undefined,
     password: undefined,
-  })
+  });
 
   const {dispatch} = useContext(AuthContext)
   const navigator = useNavigate()

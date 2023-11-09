@@ -16,45 +16,41 @@ import {AuthContext} from './../context/AuthContext'
 const TourDetails = () => {
 
   const { id } = useParams();
-
-  const rewiewMsgRef = useRef('');
-
+  const reviewMsgRef = useRef('');
   const [tourRating, setTourRating] = useState(null);
-
   const {user} = useContext(AuthContext)
 
   // featch data from database
   const {data:tour, loading, error} = useFetch(`${BASE_URL}/tours/${id}`)
 
   const { photo, title, desc, price, address, reviews, city,
-    distance, maxGroupSize } = tour
+    distance, maxGroupSize } = tour;
 
   const { totalRating, avgRating } = calculateAvgRating(reviews)
 
-  // format
-
-  const options = {day: 'numeric', month: 'long', year: 'numeric' }
+  // format date
+  const options = {day: 'numeric', month: 'long', year: 'numeric' };
 
   // submit 
 
   const submitHandler = async e => {
-
     e.preventDefault()
-    const reviewText = rewiewMsgRef.current.value;
+    const reviewText = reviewMsgRef.current.value;
+
 
     try {
-
-      if(!user || user === undefined || user === null){
-        alert('Please sign in ')
+      if(!user || user === undefined  || user === null){
+        alert("Please sign in")
       }
 
       const reviewObj = {
-        username:user.username,
+        username: user?.username,
         reviewText,
-        reting: tourRating
+        rating: tourRating
       }
+
       const res = await fetch(`${BASE_URL}/review/${id}`,{
-        method:'post',
+        method: 'post',
         headers:{
           'content-type': 'application/json'
         },
@@ -62,9 +58,12 @@ const TourDetails = () => {
         body: JSON.stringify(reviewObj)
       })
 
-      const result = await res.json()
-      alert(result.message)
+      const result = await res.json();
+      if(!res.ok) {
+        return alert(result.message);
+      }
 
+      alert(result.message);
     } catch (err) {
       alert(err.message);
     }
@@ -72,7 +71,7 @@ const TourDetails = () => {
   };
 
   useEffect(() =>{
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   },[tour])
 
   return <>
@@ -154,8 +153,9 @@ const TourDetails = () => {
                   </div>
 
                   <div className="rewiew__input">
-                    <input type='text' ref={rewiewMsgRef} 
-                     placeholder='share your thoughts' required/>
+                    <input type='text' ref={reviewMsgRef} 
+                     placeholder='share your thoughts' 
+                     required/>
                      
                     <button className='btn primary__btn text-white' type='submit'>
                       Submit
@@ -173,10 +173,11 @@ const TourDetails = () => {
                           
                           <div>
                             <h5>
-                              Anastasia Niu
+                              {review.username}
                             </h5>
                             <p>
-                              {new Date('10-30-2023').toLocaleDateString(
+                              {new Date(review.createdAt
+                              ).toLocaleDateString(
                                 'en-US',
                                 options
                                 )}
@@ -184,10 +185,10 @@ const TourDetails = () => {
                           </div>
 
                           <span className='d-flex align-items-center'>
-                            5 <i class="ri-star-s-fill"></i>
+                            {review.rating} <i class="ri-star-s-fill"></i>
                           </span>
                         </div>
-                        <h6>Круто!</h6>
+                        <h6>{review.reviewText}</h6>
                       </div>
                     </div>
                   ))
@@ -200,7 +201,7 @@ const TourDetails = () => {
             </div>
           </Col>
 
-          <Col ig='4'>
+          <Col lg='4'>
             <Booking tour={tour} avgRating ={avgRating}/>
 
           </Col>

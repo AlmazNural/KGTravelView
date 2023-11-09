@@ -1,7 +1,6 @@
 import express from "express";
 import { createReview } from "./../controllers/tourReviews.js";
 
-
 const router = express.Router()
 
 router.post('/:tourId', createReview);

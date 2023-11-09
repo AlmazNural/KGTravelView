@@ -46,8 +46,7 @@ const Footer = () => {
         <Col lg='3'>
           <div className='logo'>
             <img src={logo} alt="logo"/>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Quia, quisquam.</p>
+            <p>This tour is not just a journey, it is an immersion into a world of amazing experiences.</p>
 
             <div className='social__links d-flex align-items-center gap-4'>
               <span>

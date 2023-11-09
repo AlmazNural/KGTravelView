@@ -36,9 +36,9 @@ const Home = () => {
                   <Subtitle subtitle={'Know Before You Go'} />
                   <img src={worldImg} alt='world' />
                 </div>
-                <h1> Eveniet quaerat. <span className='highlight'> nulla eveniet hic magnam! </span> </h1>
+                <h1>Travel to Kyrgyzstan <span className='highlight'>the beauty of nature and culture</span> </h1>
                 <p>
-                  Qui deleniti in, optio nemo tempore veritatis fugit temporibus ratione fugiat totam!
+                The charm of art and culture permeates every corner of this amazing country.
                 </p>
               </div>
             </Col>
@@ -50,7 +50,7 @@ const Home = () => {
             </Col>
 
             <Col lg='2'>
-              <div className='hero__img-box mt-4'>
+              <div className='hero__img-box hero__video-box mt-4'>
                 <video src={heroVideo} alt='heroVideo' controls />
               </div>
             </Col>
@@ -82,7 +82,7 @@ const Home = () => {
           <Row>
             <Col lg='3'>
               <h5 className='services__subtitle'> What we serve </h5>
-              <h2 className='services__title'>Lorem ipsum dolor sit. </h2>
+              <h2 className='services__title'>favorable conditions </h2>
             </Col>
             <ServicesList />
           </Row>
@@ -116,8 +116,7 @@ const Home = () => {
             <div className="experience__content">
               <Subtitle subtitle={'Experience'} />
               <h2>Whit our all experience <br /> we will serve you </h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                <br /> Veritatis et commodi.</p>
+              <p>Information about our tour on the website</p>
             </div>
 
             <div className='counter__wrapper d-flex align-items-center gap-5'>
