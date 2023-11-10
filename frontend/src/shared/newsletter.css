@@ -1,5 +1,9 @@
 .newletter{
-    background: #cae5f4;
+    background: linear-gradient(rgba(253, 247, 247, 0.525), rgba(35, 35, 35, 0.377)),
+    url('../assets/images/bozuy.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
     padding: 0;
     margin-top: 48px;
 }
@@ -47,4 +51,25 @@
 .newslatter__content p{
     color: var(--heading-color);
     font-size: 18px;
+}
+
+
+@media only screen and (max-width:992px) {
+    .newslatter__content h2{
+        font-size: 32px;
+    }
+    
+    .newslatter__img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .newslatter__content h2{
+        font-size: 24px;
+    }
+
+    .newslatter__content p{
+        display: none;
+    }
 }

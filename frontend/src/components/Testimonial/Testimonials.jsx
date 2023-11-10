@@ -40,7 +40,7 @@ const Testimonials = () => {
     <div className="testimonial py-4 px-3">
         <p>
         I recently returned from a trip organized by this tour company, and I was delighted.
-        They provided excellent services, from selecting the route to accommodation. 
+        They provided excellent services, from selecting the route. 
         </p>
 
         <div className='d-flex align-items-center gap-4 mt-3'>
@@ -66,7 +66,7 @@ const Testimonials = () => {
     <div className="testimonial py-4 px-3">
         <p>
         I would like to share my recent experience with this tour company.
-        They proved to be professional and reliable, ensuring the safety and comfort of our journey.
+        They proved to be professional and reliable, ensuring the safety.
         </p>
 
         <div className='d-flex align-items-center gap-4 mt-3'>
@@ -79,7 +79,7 @@ const Testimonials = () => {
     <div className="testimonial py-4 px-3">
         <p>
         I recently returned from a trip organized by this tour company, and I was delighted.
-        They provided excellent services, from selecting the route to accommodation. 
+        They provided excellent services, from selecting the route. 
         </p>
 
         <div className='d-flex align-items-center gap-4 mt-3'>
@@ -105,7 +105,7 @@ const Testimonials = () => {
     <div className="testimonial py-4 px-3">
         <p>
         I would like to share my recent experience with this tour company.
-        They proved to be professional and reliable, ensuring the safety and comfort of our journey.
+        They proved to be professional and reliable ensuring...
         </p>
 
         <div className='d-flex align-items-center gap-4 mt-3'>

@@ -1,3 +1,11 @@
+.hero__fon{
+        background: linear-gradient(rgba(235, 223, 223, 0.382), rgb(255, 255, 255)),
+    url('../assets/images/kyrgyzstan.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
 .hero__subtitle img{
     width: 37px;
     height: 37px;
@@ -131,6 +139,10 @@
     .services__title, .featured__tour-title,
     .gallery__title, .testimonial__title, .experience__content h2{
         font-size: 32px;
+    }
+
+    .experience__img{
+        margin-top: 32px;
     }
 }
 

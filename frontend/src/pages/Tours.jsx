@@ -45,7 +45,7 @@ const Tours = () => {
           {error && <h4 className='text-center pt-5'> {error} </h4> }
           {!loading && !error && <Row>
               {tours?.map(tour => (
-                  <Col className='mb-4' lg='3' key={tour._id}>
+                  <Col className='md-6' sm='6' lg='3' key={tour._id}>
                     <TourCard tour={tour} />
                   </Col>))
               }

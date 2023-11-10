@@ -27,7 +27,7 @@ const Home = () => {
 
     {/* feader section end */}
 
-      <section>
+      <section className='hero__fon'>
         <Container>
           <Row>
             <Col lg='4'>
